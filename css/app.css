@@ -42,7 +42,7 @@ nav#mainNav .nav-link {
 }
 
 #s_clean {
-  padding-top: 190px;
+  padding-top: 119px;
 }
 
 #s_clean .v_c {
@@ -304,6 +304,32 @@ section#s5 h1 {
   font-size: 55px;
 }
 
+section#s5 .s3_download {
+  text-align: center;
+  background: rgba(104, 104, 104, 0.2);
+  width: 46%;
+  margin: 0 auto;
+  padding: 32px;
+  margin-top: 84px;
+  display: block;
+  /* height: 51px; */
+  position: relative;
+  border-radius: 1px;
+}
+
+section#s5 .s3_download a.s3_d {
+  background: #00cbcf;
+  color: #fff;
+  /* padding: 18px 55px 18px 47px; */
+  width: 103%;
+  position: absolute;
+  top: -7px;
+  right: 7px;
+  padding: 20px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
 footer#footerSectio {
   margin-top: 61px;
   background-color: #00cbcf;
@@ -376,5 +402,107 @@ footer#footerSectio h4.text-right.py-4 {
   top: 2850px;
   -webkit-clip-path: circle(47% at 66% 51%);
           clip-path: circle(47% at 66% 51%);
+}
+
+.black {
+  vertical-align: middle;
+  border-style: none;
+  width: 182px;
+  border-radius: 3px;
+}
+
+.modalPopUP {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+  width: 524px;
+  height: 376px;
+  margin-top: 10%;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  display: none;
+  -webkit-transition: all 1.5s ease-in 1s;
+  transition: all 1.5s ease-in 1s;
+  z-index: 5555555;
+}
+
+#bodyblack {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 753%;
+  display: none;
+  z-index: 5555;
+  width: 103%;
+}
+
+#wiat {
+  font-size: 20px;
+  color: #fff;
+}
+
+.dm {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 0 12px 24px;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #f7f7f7;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  cursor: pointer;
+  position: relative;
+  bottom: 67px;
+  padding: 5px 29px 0 0;
+}
+
+.messagesInfo {
+  font-size: 21px;
+  padding: 25px 0 28px 21px;
+  width: 331px;
+}
+
+.imgInfo {
+  float: right;
+  position: relative;
+  bottom: 145px;
+  right: 3px;
+}
+
+.btnDonwload {
+  padding: 0 0 0 31px;
+  display: block;
+  margin-top: -17px;
+}
+
+.btndanger {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  width: 48%;
+  outline: none;
+  padding: 14px;
+  border: none;
+  border-radius: 2px;
+}
+
+.a_bad {
+  line-height: 20px;
+  display: block;
+  margin-left: 13px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=app.css.map */
